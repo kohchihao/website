@@ -12,5 +12,5 @@ script:
   - npm run export
 
 after_success:
-  - chmod +x .travis/deploy-dokku.sh
+  - chmod +x ./config/travis/deploy-dokku.sh
   - ./config/travis/deploy-dokku.sh
